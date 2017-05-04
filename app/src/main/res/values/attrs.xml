@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <declare-styleable name="RoundCornerImageView">
+        <attr name="radius" format="dimension" />
+        <attr name="cornerDirection">
+            <flag name="leftTop" value="1" />
+            <flag name="leftBottom" value="2" />
+            <flag name="rightTop" value="4" />
+            <flag name="rightBottom" value="8" />
+        </attr>
+    </declare-styleable>
+
+    <attr name="direction">
+        <enum name="rightToLeft" value="0" />
+        <enum name="bottomToTop" value="1" />
+        <enum name="leftToRight" value="2" />
+        <enum name="topToBottom" value="3" />
+    </attr>
+
+    <declare-styleable name="MultiDirectionSlidingDrawer">
+        <attr name="handle" format="reference" />
+        <attr name="content" format="reference" />
+        <attr name="direction" />
+        <attr name="bottomOffset" format="dimension" />
+        <attr name="topOffset" format="dimension" />
+        <attr name="allowSingleTap" format="boolean" />
+        <attr name="animateOnClick" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="PullToRefresh">
+        <attr name="adapterViewBackground" format="reference|color" />
+        <attr name="headerBackground" format="reference|color" />
+        <attr name="headerTextColor" format="color" />
+        <attr name="noRefreshView" format="boolean" />
+        <attr name="mode">
+            <flag name="pullDownFromTop" value="0x1" />
+            <flag name="pullUpFromBottom" value="0x2" />
+            <flag name="both" value="0x3" />
+            <flag name="none" value="0x4" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="com.meilapp.meila.searchProduct.Pager">
+        <attr name="pageWidth" format="dimension" />
+    </declare-styleable>
+
+    <!--
+    <declare-styleable name="com.myapps.widget.PagerBar">
+        <attr name="barColor" format="color" />
+        <attr name="highlightColor" format="color" />
+        <attr name="fadeDelay" format="integer" />
+        <attr name="fadeDuration" format="integer" />
+        <attr name="roundRectRadius" format="dimension" />
+    </declare-styleable>
+    -->
+
+    <declare-styleable name="CustomTextView">
+        <attr name="CustomTextViewMaxLine" format="integer" />
+        <attr name="CustomTextViewSingleLine" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="ForLoadingRectView">
+        <attr name="progressColor" format="reference|color" />
+    </declare-styleable>
+    <declare-styleable name="VideoPlayerView">
+        <attr name="controllBarHeight" format="dimension" />
+        <attr name="isFullScreen" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="RoundSimpleImageView">
+        <attr name="cornerRadius" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="HorizontalListView">
+        <attr name="dividerWidth" format="dimension" />
+        <attr name="android:clipToPadding" />
+        <attr name="android:divider" />
+        <attr name="android:requiresFadingEdge" />
+        <attr name="android:fadingEdgeLength" />
+    </declare-styleable>
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="RotateTextView">
+        <attr name="degree" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="ActivityBackgroundView">
+        <attr name="backgoundImage" format="reference" />
+        <attr name="btnText" format="string|reference" />
+        <attr name="primaryText" format="string|reference" />
+        <attr name="minorText" format="string|reference" />
+        <attr name="type">
+            <enum name="noImage" value="1" />
+            <enum name="noButton" value="2" />
+            <enum name="onlyText" value="3" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="MeilaCommonButton">
+        <attr name="color_theme">
+            <enum name="themeColorRed" value="0x001" />
+            <enum name="themeColorWhite" value="0x002" />
+            <enum name="themeColorBlack" value="0x003" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="MeilaImageview">
+        <attr name="is_show_loadProgress" format="boolean" />
+        <attr name="wrap_type">
+            <enum name="noWrap" value="1000" />
+            <enum name="wrapWidth" value="1001" />
+            <enum name="wrapHeight" value="1002" />
+            <enum name="squarWrapHeight" value="1003" />
+        </attr>
+        <attr name="scaleType">
+            <enum name="MATRIX" value="1000" />
+            <enum name="FIT_XY" value="1001" />
+            <enum name="FIT_START" value="1002" />
+            <enum name="FIT_CENTER" value="1003" />
+            <enum name="FIT_END" value="1004" />
+            <enum name="CENTER" value="1005" />
+            <enum name="CENTER_CROP" value="1006" />
+            <enum name="CENTER_INSIDE" value="1007" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="startTakePhotoView">
+        <attr name="src" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="UserInfoLayout">
+        <attr name="showTypeIconAndLevel" format="boolean" />
+        <attr name="attenBtnNeedDisappear" format="boolean" />
+        <attr name="showAttenBtn" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="TagsLayout">
+        <attr name="spLine">
+            <enum name="none" value="0" />
+            <enum name="top" value="1" />
+            <enum name="bottom" value="2" />
+            <enum name="both" value="3" />
+        </attr>
+        <attr name="background" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="HomeFeedBotomView">
+        <attr name="isBigImgModel" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="FocusImageView">
+        <attr name="focus_focusing_id" format="integer" />
+        <attr name="focus_success_id" format="integer" />
+        <attr name="focus_fail_id" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="NGridLayout">
+        <attr name="maxN" format="integer" />
+        <attr name="spaceHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="UserLoginCoreView">
+        <attr name="smsCodeType" format="integer" /> <!-- 验证码类型：0(默认)：登陆发送短信，1：支付，2：个人资料页填写手机号发送验证码-->
+    </declare-styleable>
+
+    <declare-styleable name="RabbitClipLoading">
+        <attr name="isRetryTextFill" format="boolean"/> <!--加载失败，错误提示文本是否铺满整个父控件-->
+        <attr name="retryTextHeight" format="dimension"/> <!--手动设置加载失败文本的高度 isRetryTextFill为true时忽略-->
+        <attr name="styleType"> <!--设置白底还是灰底-->
+            <enum name="style_type_white" value="0"/>
+            <enum name="style_type_grey" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="RabbitImageView">
+        <attr name="imageMode">
+            <enum name="noWrap" value="1000" />
+            <enum name="wrapWidth" value="1001" />
+            <enum name="wrapHeight" value="1002" />
+            <enum name="squarWrapHeight" value="1003" />
+        </attr>
+    </declare-styleable>
+</resources>

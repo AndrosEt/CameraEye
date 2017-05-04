@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SweetCamera</string>
+
+    <!--自定义相机-->
+    <string name="tips_camera_not_exist">不存在相机设备</string>
+    <string name="topic_camera_flashlight_off">关闭</string>
+    <string name="topic_camera_flashlight_on">开启</string>
+    <string name="topic_camera_flashlight_auto">自动</string>
+    <string name="topic_camera_front">前镜头</string>
+    <string name="topic_camera_back">后镜头</string>
+    <string name="topic_camera_takephoto_failure">拍照竟然失败了！</string>
+    <string name="tips_camera_forbidden">相机被禁用 请修改应用权限</string>
+
+    <string name="tips_sdcard_notexist">SD卡不存在</string>
+    <string name="product_more_detail">更多详情</string>
+    <string name="product_ingredients">查看成分分析</string>
+    <string name="product_count_in_meila">%s件收录，国内最大的妆品信息库</string>
+    <!--<string name="topic_camera_photo_save">拍照文件存储失败了！</string>-->
+
+</resources>
