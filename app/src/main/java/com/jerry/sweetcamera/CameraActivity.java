@@ -53,6 +53,8 @@ public class CameraActivity extends Activity {
         initView();
         initData();
         initListener();
+
+
     }
 
     @Override
